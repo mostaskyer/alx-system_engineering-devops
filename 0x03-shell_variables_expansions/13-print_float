@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "&f\n"0.2 $NUM
+echo {a..z}{a..z} | tr " " "\n" | grep -v "OO"
